@@ -51,10 +51,6 @@ User.init({
     type: Sequelize.STRING(128), // 字符串位数
     unique: true // 唯一
   },
-  openid: {
-    type: Sequelize.STRING(64), // 字符串位数
-    unique: true // 唯一
-  },
   test: Sequelize.STRING
 }, {
     sequelize,

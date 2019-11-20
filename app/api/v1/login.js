@@ -1,11 +1,11 @@
-// 注册接口
+// 登录接口
 const Router = require('koa-router') // 导入koa-router
-const router = new Router({ prefix: 'v1/user' })
+const router = new Router({
+  prefix: '/v1/user'
+})
 
-
-router.post('/login', async (ctx) => {
-  console.log(123123);
-  ctx.body = 'success'
+router.get('/login', async (ctx) => {
+  ctx.body = 'success1'
 })
 
 module.exports = router

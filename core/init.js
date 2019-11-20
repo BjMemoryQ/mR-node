@@ -17,8 +17,6 @@ class InitManager {
     })
 
     function watchModules(obj) {
-      console.log('obj', obj);
-      
       if (obj instanceof Router) {
         InitManager.app.use(obj.routes())
       }

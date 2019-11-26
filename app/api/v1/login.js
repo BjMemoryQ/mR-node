@@ -5,7 +5,7 @@ const router = new Router({
 })
 
 router.get('/login', async (ctx) => {
-  ctx.body = 'success'
+  ctx.body = 'login success'
 })
 
 module.exports = router
